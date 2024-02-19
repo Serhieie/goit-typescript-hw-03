@@ -36,4 +36,8 @@ class Manager extends Employee {
   }
 }
 
+const mngr = new Manager("Eddie", "Sales Manager", 30000);
+const mngrDetails = mngr.getEmployeeDetails();
+console.log(mngrDetails);
+
 export {};
